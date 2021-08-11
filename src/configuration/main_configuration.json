@@ -1,0 +1,5 @@
+{
+  "port": 42080,
+  "host": "0.0.0.0",
+  "connection_string": "mongodb://amigo:GjU9vR0SqdNcQnBivt6BD74HUOmxaVeUQprhbHz4HXWfL75D62Md12dNVL3JeYfFIlFqC67KHK7TKCCU0h6n3g==@amigo.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@amigo@"
+}
