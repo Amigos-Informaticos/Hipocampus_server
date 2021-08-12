@@ -10,5 +10,4 @@ RUN pip install gunicorn
 
 RUN apt update && apt install nano
 
-CMD ["gunicorn", "-b", "0.0.0.0:42080", "--certfile", "cert.pem", "--keyfile", "key.pem",
-"--workers", "2", "app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:42080", "--certfile", "cert.pem", "--keyfile", "key.pem", "--workers", "2", "app:app"]
